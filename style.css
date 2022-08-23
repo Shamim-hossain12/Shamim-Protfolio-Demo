@@ -1,0 +1,701 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 600px;
+    background-image: url(./iamge/bgcImage.webp);
+}
+
+.top-header {
+    width: 90%;
+    margin: auto;
+    height: 80px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo p {
+    width: 100%;
+    font-family: 'Silkscreen', cursive;
+    font-style: italic;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: dodgerblue;
+    text-shadow: 2px 2px black;
+    padding-top: 50px;
+}
+
+.menu-ber {
+    float: right;
+    position: absolute;
+    top: 85px;
+    right: 330px;
+    word-spacing: 10px;
+}
+
+.menu-ber a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.menu-ber a:hover {
+    background-color: red;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.menu-ber-two {
+    float: right;
+    position: absolute;
+    top: 85px;
+    right: 100px;
+}
+
+.menu-ber-two a {
+    font-size: 15px;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 30px 0px 30px 0px;
+    background-image: linear-gradient(to right, yellow, rgb(255, 0, 106));
+}
+
+.bottom-header {
+    width: 90%;
+    margin: auto;
+}
+
+.bottom-header-image {
+    width: 300px;
+    height: 400px;
+}
+
+.bottom-header-image img {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    bottom: 58px;
+    right: 100px;
+}
+
+.btm-text {
+    width: 50%;
+}
+
+.btm-text h1 {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    top: 250px;
+    text-transform: uppercase;
+}
+
+.btm-text h2 {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    top: 300px;
+    text-transform: uppercase;
+}
+
+.btm-text p a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 30px 0px 30px 0px;
+    padding: 10px;
+    position: absolute;
+    top: 130px;
+    background-image: linear-gradient(to right, yellow, rgb(255, 0, 106));
+}
+
+.btm-text p {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    position: absolute;
+    top: 400px;
+    left: 70px;
+    width: 40%;
+}
+
+.main {
+    width: 100%;
+}
+
+.main-text h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-text-two h1 {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-text-two h1::after {
+    content: "blog";
+    color: purple;
+    text-transform: uppercase;
+}
+
+.service {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-one {
+    width: 20%;
+    height: 300px;
+    border: 2px solid rgba(0, 0, 0, 0.164);
+}
+
+.service-one h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.service-one p {
+    font-weight: 900;
+    padding-left: 10px;
+}
+
+.service-one h5 {
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+.service-one h5 a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    background-image: linear-gradient(to right, yellow, rgb(255, 0, 106));
+    padding: 10px;
+    border-radius: 30px 0px 30px 0px;
+}
+
+.service-two {
+    width: 20%;
+    height: 300px;
+    border: 2px solid rgba(0, 0, 0, 0.164);
+    margin-top: 70px;
+}
+
+.service-two h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.service-two p {
+    font-weight: 900;
+    padding-left: 10px;
+}
+
+.service-two h5 {
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+.service-two h5 a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    background-image: linear-gradient(to right, yellow, rgb(255, 0, 106));
+    padding: 10px;
+    border-radius: 30px 0px 30px 0px;
+}
+
+.service-three {
+    width: 20%;
+    height: 300px;
+    border: 2px solid rgba(0, 0, 0, 0.164);
+    margin-top: 140px;
+}
+
+.service-three h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.service-three p {
+    font-weight: 900;
+    padding-left: 10px;
+}
+
+.service-three h5 {
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+.service-three h5 a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    background-image: linear-gradient(to right, yellow, rgb(255, 0, 106));
+    padding: 10px;
+    border-radius: 30px 0px 30px 0px;
+}
+
+.service-four {
+    width: 20%;
+    height: 300px;
+    border: 2px solid rgba(0, 0, 0, 0.164);
+    margin-top: 210px;
+}
+
+.service-four h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.service-four p {
+    font-weight: 900;
+    padding-left: 10px;
+}
+
+.service-four h5 {
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+.service-four h5 a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    background-image: linear-gradient(to right, yellow, rgb(255, 0, 106));
+    padding: 10px;
+    border-radius: 30px 0px 30px 0px;
+}
+
+.serv {
+    margin-top: 30px;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    background-color: gray;
+}
+
+.servc {
+    margin-top: 30px;
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    align-items: center;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-five {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.service-five h2 {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    color: aliceblue;
+    padding-top: 15px;
+}
+
+.service-five h2::after {
+    content: "%";
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.service-five p {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.service-six {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.service-six h2 {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    color: aliceblue;
+    padding-top: 15px;
+}
+
+.service-six h2::after {
+    content: "%";
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.service-six p {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.service-seven {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.service-seven h2 {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    color: aliceblue;
+    padding-top: 15px;
+}
+
+.service-seven h2::after {
+    content: "%";
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.service-seven p {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.service-eight {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.service-eight h2 {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    color: aliceblue;
+    padding-top: 15px;
+}
+
+.service-eight h2::after {
+    content: "%";
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.service-eight p {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.about-section {
+    width: 100%;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.151);
+}
+
+.about {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-one {
+    height: 400px;
+    width: 30%;
+    background-color: aliceblue;
+}
+
+.about-one h1 {
+    padding: 10px 0px;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.about-two h1 {
+    padding: 10px 0px;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.about-three h1 {
+    padding: 10px 0px;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.about-one p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    padding-left: 10px;
+    padding-bottom: 25px;
+}
+
+.about-two p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    padding-left: 10px;
+    padding-bottom: 25px;
+}
+
+.about-three p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    padding-left: 10px;
+    padding-bottom: 25px;
+}
+
+.about-one a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: blueviolet;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.493);
+    padding: 7px;
+    position: absolute;
+    top: 2000px;
+    left: 80px;
+}
+
+.about-two a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: blueviolet;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.493);
+    padding: 7px;
+    position: absolute;
+    top: 2000px;
+    left: 503px;
+}
+
+.about-three a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: blueviolet;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.493);
+    padding: 7px;
+    position: absolute;
+    top: 2000px;
+    left: 927px;
+}
+
+.abou-image {
+    height: 200px;
+    width: 95%;
+    margin: auto;
+}
+
+.abou-image img {
+    height: 200px;
+    width: 100%;
+}
+
+.about-two {
+    height: 400px;
+    width: 30%;
+    background-color: aliceblue;
+}
+
+.abou-image-two {
+    height: 200px;
+    width: 95%;
+    margin: auto;
+}
+
+.abou-image-two img {
+    height: 200px;
+    width: 100%;
+}
+
+.about-three {
+    height: 400px;
+    width: 30%;
+    background-color: aliceblue;
+}
+
+.abou-image-three {
+    height: 200px;
+    width: 95%;
+    margin: auto;
+}
+
+.abou-image-three img {
+    height: 200px;
+    width: 100%;
+}
+
+.main-text-three {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btm-main {
+    width: 60%;
+    padding-top: 50px;
+}
+
+.btm-main h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+.btm-main h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.btm-main p {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: 100;
+    padding-top: 30px;
+}
+
+.btm-main h4 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+.btm-main-two {
+    width: 30%;
+    border: 1px solid darkgoldenrod;
+    margin-top: 50px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.btm-main-two h1 {
+    background-color: darkgoldenrod;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.h-one input {
+    width: 94%;
+    height: 25px;
+}
+
+.h-one {
+    padding: 10px 10px;
+}
+
+.btm-main-two h2 {
+    text-align: center;
+    background-color: darkblue;
+}
+
+.btm-main-two h2 a {
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.fotter {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.856);
+    margin-top: 30px;
+}
+
+.end h2 {
+    padding-top: 40px;
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.end h4 {
+    padding-top: 20px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+}
+
+.fotter-icon {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.fotter-icon a {
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.fotter-icon a i {
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
